@@ -78,4 +78,12 @@
         android:textColor="#FF444444"
         app:layout_constraintTop_toBottomOf="@id/hit_message"
         app:layout_constraintLeft_toLeftOf="@+id/password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Forget_password"
+        app:layout_constraintRight_toRightOf="@+id/password"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkbox"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
