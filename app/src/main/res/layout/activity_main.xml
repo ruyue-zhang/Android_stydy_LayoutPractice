@@ -86,4 +86,24 @@
         app:layout_constraintRight_toRightOf="@+id/password"
         app:layout_constraintBaseline_toBaselineOf="@+id/checkbox"/>
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/login_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/login_line"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/login_button"
+        android:text="@string/Login"
+        android:textAllCaps="false"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
