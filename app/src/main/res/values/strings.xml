@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="username">username</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="forget_password">forget_password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="or_connect_with">or connect with</string>
 </resources>
