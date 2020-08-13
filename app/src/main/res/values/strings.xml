@@ -9,4 +9,5 @@
     <string name="or_connect_with">or connect with</string>
     <string name="Forget_password">Forget_password</string>
     <string name="Login">Login</string>
+    <string name="sign_up_with_e_mail">Sign Up With E-mail</string>
 </resources>
