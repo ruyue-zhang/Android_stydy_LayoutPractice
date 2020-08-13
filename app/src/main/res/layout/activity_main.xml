@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -80,8 +81,8 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:checked="true"
+        android:textColor="@color/midGray"
         android:text="@string/remember_me"
-        android:textColor="@color/gray"
         android:theme="@style/My_CheckBox"
         app:layout_constraintLeft_toLeftOf="@+id/password"
         app:layout_constraintTop_toBottomOf="@id/hit_message" />
@@ -91,7 +92,8 @@
         android:layout_height="wrap_content"
         android:text="@string/Forget_password"
         app:layout_constraintBaseline_toBaselineOf="@+id/checkbox"
-        app:layout_constraintRight_toRightOf="@+id/password" />
+        app:layout_constraintRight_toRightOf="@+id/password"
+        android:theme="@style/My_CheckBox"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/login_line"

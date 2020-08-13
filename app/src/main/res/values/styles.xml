@@ -11,7 +11,8 @@
         <item name="android:colorControlActivated">@color/lightGray</item>
         <item name="android:colorControlNormal">@color/lightGray</item>
         <item name="android:button" >@null</item>
-        <item name="android:textColor">#FF444444</item>
+        <item name="android:textColor">@color/midGray</item>
+        <item name="android:fontFamily">PingFangSC-Regular</item>
         <item name="android:textSize" >14sp</item>
         <item name="android:gravity" >center</item>
     </style>

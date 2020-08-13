@@ -8,4 +8,5 @@
     <color name="babyBlue">#FF55ACEE</color>
     <color name="gray">#FF444444</color>
     <color name="lightGray">#FFE0E0E0</color>
+    <color name="midGray">#444444</color>
 </resources>
